@@ -167,7 +167,7 @@ int run (char **program, int background, struct Node **head) {
     }
     return 0;
 }
-/*** QUIT - Terminates the mysh shell ***/
+/*** QUIT - Terminates the candy shell ***/
 void quit(char **commands, int num) {
     for (int i = 0; i < num; i++) {
         free(commands[i]);
